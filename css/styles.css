@@ -12,17 +12,20 @@ h1 {
   text-align: center;
   margin: 30px 0;
   color: #FFF;
+  
 }
 
 /* calculadora */
 #calculator {
-  background-color: #121c2c;
+  background-color: #070e18;
   width: 400px;
   height: 400px;
   margin-left: auto;
   margin-right: auto;
   padding-top: 30px;
   padding-bottom: 50px;
+  border: rgb(159, 159, 159) 5px solid;
+  box-shadow: 5px 5px 10px black
 }
 
 #screen-container {
@@ -75,7 +78,7 @@ h1 {
 }
 
 .btn:hover {
-  background-color: #6C63FF;
+  background-color: #25208d;
 }
 
 #ac-btn {
@@ -93,5 +96,5 @@ h1 {
 
 #ac-btn, #division-btn, #multiplication-btn, #minus-btn, #plus-btn, #equals-btn, #dot-btn, #zero-btn {
   font-weight: 300;
-  font-size: 20px;
+  font-size: 25px;
 }
