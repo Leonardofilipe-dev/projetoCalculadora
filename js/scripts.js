@@ -26,33 +26,33 @@ class Calculator {
 
   }
 
-  // método de soma
+  // método de soma 1
   sum(n1, n2) {
     return parseFloat(n1) + parseFloat(n2)
   }
 
-  // método de subtração
+  // método de subtração 2
   subtraction(n1, n2) {
     return parseFloat(n1) - parseFloat(n2)
   }
 
-  // método de subtração
+  // método de subtração 3
   multiplication(n1, n2) {
     return parseFloat(n1) * parseFloat(n2)
   }
 
-  // método de divisão
+  // método de divisão 4
   division(n1, n2) {
     return parseFloat(n1) / parseFloat(n2)
   }
 
-  // atualiza valores
+  // atualiza valores 5
   refreshValues(total) {
     this.upperValue.textContent = total;
     this.resultValue.textContent = total;
   }
 
-  // resolve a operação
+  // resolve a operação 6
   resolution() {
   
     // explode uma string em um array
